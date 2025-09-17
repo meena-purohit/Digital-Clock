@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+}
+
+.clock-container {
+    text-align: center;
+    color: limegreen;
+    font-family: 'Courier New', monospace;
+}
+
+
+
+#clock-time {
+      font-size: 5rem;
+      font-weight: bold;
+      text-shadow: 0 0 20px limegreen;
+}
+
+#clock-date {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: rgb(225, 227, 208);
+    opacity: 0.8;
+}
